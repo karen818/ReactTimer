@@ -1,5 +1,12 @@
 //no underscore, no file extention
 @import "base/variables";
+
+//Foundation
+@import "base/foundation-settings";
+@import "foundation";
+@include foundation-everything;
+
+//components
 @import "components/navigation";
 @import "components/clock";
 @import "components/controls";
